@@ -32,8 +32,8 @@ We offer Commercial Support for all of our projects, just send us an email to [h
 
 We can also help you with:
 - Terraform Modules for all types of infrastructure such as VPC's, Docker clusters,
-databases, logging and monitoring, CI, etc.
-- Complex Cloud- and Multi Cloud environments.
+databases, logging, and monitoring, CI, etc.
+- Complex Cloud- and Multi-Cloud environments.
 - Consulting & Training on AWS, Terraform and DevOps.
 
 ## Reporting Issues

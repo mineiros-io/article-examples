@@ -6,7 +6,7 @@
 
 # How to dynamically disable modules
 
-This example shows hot to dynamically disable modules using
+This example shows how to dynamically disable modules using
 the `module_enabled` toggle.
 
 How to implement this toggle is discussed in more detail in our article
@@ -33,7 +33,7 @@ module "the-cake-is-a-lie" {
 The example will only create `null` resources as provided by the
 [null provider](https://www.terraform.io/docs/providers/null/index.html).
 No infrastructure is created anywhere and no costs will be generated.
-Running the example will us the
+Running the example will use the
 [local backend](https://www.terraform.io/docs/backends/types/local.html)
 by default to store the terraform state.
 
