@@ -6,7 +6,7 @@
 
 # How to make a module depend on external hidden dependencies
 
-This example shows hot to make a module depend on external hidden dependencies
+This example shows how to make a module depend on external hidden dependencies
 using the `module_depends_on` list of dependencies.
 
 How to implement this is discussed in more detail in our article
@@ -43,7 +43,7 @@ resource "null_resource" "is-external-dependency" {
 The example will only create `null` resources as provided by the
 [null provider](https://www.terraform.io/docs/providers/null/index.html).
 No infrastructure is created anywhere and no costs will be generated.
-Running the example will us the
+Running the example will use the
 [local backend](https://www.terraform.io/docs/backends/types/local.html)
 by default to store the terraform state.
 

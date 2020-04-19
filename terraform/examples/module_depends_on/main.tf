@@ -23,10 +23,10 @@ resource "null_resource" "is-no-dependency" {}
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
-# Apply: Resources in this module will be created after creation of the
+# Apply: Resources in this module will be created after the creation of the
 # null_resource.is-external-dependency is completed.
 #
-# Destroy: Resources in this module will be destroyed before destructiong of the
+# Destroy: Resources in this module will be destroyed before the destruction of the
 # null_resource.is-external-dependency is started.
 # ------------------------------------------------------------------------------
 module "has-external-dependency" {
@@ -40,10 +40,10 @@ module "has-external-dependency" {
 }
 
 # ------------------------------------------------------------------------------
-# Apply: This resource will be created before creation of the resources
+# Apply: This resource will be created before the creation of the resources
 # module.has-external-dependency.* is started
 #
-# Destroy: Destruction of this resource will be deffered after all
+# Destroy: Destruction of this resource will be deferred after all
 # module.has-external-dependency.* resources have been destroyed completely
 # ------------------------------------------------------------------------------
 resource "null_resource" "is-external-dependency" {}
