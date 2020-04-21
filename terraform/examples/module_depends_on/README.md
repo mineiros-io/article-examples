@@ -10,7 +10,8 @@ This example shows how to make a module depend on external hidden dependencies
 using the `module_depends_on` list of dependencies.
 
 How to implement this is discussed in more detail in our article
-[xxxxx]() and implementation details can be seen in the code of the
+[The Ultimate Guide on How to Write Terraform Modules — Part 1 — Building a Foundation](https://medium.com/mineiros/the-ultimate-guide-on-how-to-write-terraform-modules-part-1-81f86d31f024)
+and implementation details can be seen in the code of the
 module this example uses: [terraform-null-resource](../../modules/terraform-null-resource).
 
 ## What this example does

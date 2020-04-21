@@ -9,6 +9,9 @@
 A [Terraform](https://www.terraform.io) 0.12 module creating a bunch of
 [`null_resource`](https://www.terraform.io/docs/providers/null/resource.html) resources to be used in examples.
 
+This module is referenced in our article
+[The Ultimate Guide on How to Write Terraform Modules — Part 1 — Building a Foundation](https://medium.com/mineiros/the-ultimate-guide-on-how-to-write-terraform-modules-part-1-81f86d31f024).
+
 - [Module Features](#module-features)
 - [Getting Started](#getting-started)
 - [Module Argument Reference](#module-argument-reference)
