@@ -7,11 +7,15 @@
 # Mineiros Article Examples
 A generic repository for examples and references used in our published articles.
 
+- [List of Articles referencing this repository](#list-of-articles-referencing-this-repository)
 - [Table of Examples](#table-of-examples)
 - [About Mineiros](#about-mineiros)
 - [Reporting Issues](#reporting-issues)
 - [Contributing](#contributing)
 - [License](#license)
+
+## List of Articles referencing this repository
+- April 2020: [The Ultimate Guide on How to Write Terraform Modules — Part 1 — Building a Foundation](https://medium.com/mineiros/the-ultimate-guide-on-how-to-write-terraform-modules-part-1-81f86d31f024).
 
 ## Table of Examples
 
