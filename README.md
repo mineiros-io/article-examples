@@ -28,7 +28,7 @@ A generic repository for examples and references used in our published articles.
 ### Terraform modules
 - [`terraform/modules/terraform-null-resource`](terraform/modules/terraform-null-resource) -
   example implementation of a module implementing the features `module_depends_on`
-  and `modules_enabled`.
+  and `module_enabled`.
 
 ## About Mineiros
 Mineiros is a [DevOps as a Service](https://mineiros.io/) Company based in Berlin, Germany.

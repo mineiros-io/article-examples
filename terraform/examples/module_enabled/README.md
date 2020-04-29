@@ -16,7 +16,7 @@ module this example uses: [terraform-null-resource](../../modules/terraform-null
 
 ## What this example does
 The code in [main.tf](main.tf) defines two modules where one module will not create
-any resources due to setting `modules_enabled = false`.
+any resources due to setting `module_enabled = false`.
 
 ```
 module "hello-world" {
