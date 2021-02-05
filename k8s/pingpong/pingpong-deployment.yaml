@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: pingpong
+  name: pingpong
+spec:
+  replicas: 10
+  selector:
+    matchLabels:
+      app: pingpong
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: pingpong
+    spec:
+      containers:
+        - command:
+            - ping
+            - 1.1.1.1
+          image: alpine
+          name: alpine
+          resources: {}
+status: {}
